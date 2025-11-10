@@ -70,7 +70,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         'bawk_subtitle': "The Ultimate Chicken Scream Simulator!",
         'bawk_description': "Bawk 'n' Laugh is the brilliantly simple, endlessly hilarious game you didn't know you needed. The mission? Tap the chicken. The result? A symphony of absurd and comedic squawks that will have you in stitches. It's the perfect way to relieve stress and share a laugh with friends!",
         'bawk_features_list': `<li><strong>One-Tap Gameplay:</strong> Deceptively simple, impossibly fun. Just tap the screen and let the chaos begin!</li><li><strong>Hilarious Sound Effects:</strong> A huge library of custom, side-splitting chicken screams awaits. You'll never hear the same Bawk! twice.</li><li><strong>Pure, Unfiltered Fun:</strong> No complex mechanics, no high scores to stress about. Just pure, unadulterated chicken-tapping joy.</li>`,
-        
+
+        'knotty_title': "Knotty Critters",
+        'knotty_subtitle': "Puzzle Game!",
+        'knotty_description': "Knotty Critters is the brilliantly simple, endlessly hilarious game you didn't know you needed. It's the perfect way to relieve stress and share a laugh with friends!",
+        'knotty_features_list': `<li><strong>One-Tap Gameplay:</strong> Deceptively simple, impossibly fun. Just tap the screen and let the chaos begin!</li><li><strong>Hilarious Sound Effects:</strong> A huge library of custom, side-splitting chicken screams awaits. twice.</li><li><strong>Pure, Unfiltered Fun:</strong> No complex mechanics, no high scores to stress about. Just pure, unadulterated joy.</li>`,
+                
         'wow_title': "World of Warmasters",
         'wow_subtitle': "Your Legend Awaits.",
         'wow_description': "Step into a realm where forgotten myths awaken and shadows hunger for power. World of Warmasters is a classic RPG forged in the spirit of the genre's greatest legends. Embark on a perilous journey across a war-torn continent, forge alliances, and confront the ancient evil that threatens to consume everything.",
@@ -112,7 +117,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         'bawk_subtitle': "Nihai Tavuk Çığlığı Simülatörü!",
         'bawk_description': "Bawk 'n' Laugh, ihtiyacınız olduğunu bilmediğiniz o inanılmaz basit ve kahkaha dolu bir oyundur. Göreviniz mi? Sadece tavuğa dokunun. Sonuç? Sizi kahkahalara boğacak absürt ve komik bir gıdaklama senfonisi. Stres atmak ve arkadaşlarla gülmek için mükemmel bir yol!",
         'bawk_features_list': `<li><strong>Tek Dokunuşla Oynanış:</strong> Aldatıcı derecede basit, inanılmaz eğlenceli. Sadece ekrana dokunun ve kaos başlasın!</li><li><strong>Komik Ses Efektleri:</strong> Özel olarak hazırlanmış, kahkaha krizine sokacak dev bir tavuk çığlığı arşivi sizi bekliyor. Asla aynı 'Gıdak!' sesini iki kez duymayacaksınız.</li><li><strong>Saf ve Filtresiz Eğlence:</strong> Karmaşık mekanikler yok, strese sokacak yüksek skorlar yok. Sadece saf, katıksız tavuk-dokunma keyfi.</li>`,
-        
+
+        'knotty_title': "Knotty Critters",
+        'knotty_subtitle': "Puzzle Game!",
+        'knotty_description': "Knotty Critters, ihtiyacınız olduğunu bilmediğiniz o inanılmaz basit ve kahkaha dolu bir oyundur. Sizi kahkahalara boğacak absürt ve komik bir gıdaklama senfonisi. Stres atmak ve arkadaşlarla gülmek için mükemmel bir yol!",
+        'knotty_features_list': `<li><strong>Tek Dokunuşla Oynanış:</strong> Aldatıcı derecede basit, inanılmaz eğlenceli. Sadece ekrana dokunun ve kaos başlasın!</li><li><strong>Komik Ses Efektleri:</strong> Özel olarak hazırlanmış, kahkaha krizine sokacak dev bir tavuk çığlığı arşivi sizi bekliyor. Asla aynı 'Gıdak!' sesini iki kez duymayacaksınız.</li><li><strong>Saf ve Filtresiz Eğlence:</strong> Karmaşık mekanikler yok, strese sokacak yüksek skorlar yok. Sadece saf, katıksız tavuk-dokunma keyfi.</li>`,
+                
         'wow_title': "World of Warmasters",
         'wow_subtitle': "Efsanen Seni Bekliyor.",
         'wow_description': "Unutulmuş efsanelerin uyandığı ve gölgelerin güce aç olduğu bir diyara adım atın. World of Warmasters, türünün en büyük efsanelerinin ruhuyla dövülmüş klasik bir RPG'dir. Savaşla parçalanmış bir kıtada tehlikeli bir yolculuğa çıkın, ittifaklar kurun ve her şeyi tüketmekle tehdit eden kadim kötülükle yüzleşin.",
