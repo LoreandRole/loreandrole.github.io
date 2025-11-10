@@ -2,33 +2,31 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // HEADER yükle
 const loadHeader = async () => {
-    const headerElement = document.getElementById('main-header');
-    if (headerElement) {
-        try {
-            const response = await fetch('_header.html');
-            if (!response.ok) throw new Error('Header yüklenemedi: ' + response.status);
-            const html = await response.text();
-            headerElement.innerHTML = html;
-        } catch (error) {
-            console.error('Header yüklenemedi:', error);
+        const headerElement = document.getElementById('main-header');
+        if (headerElement) {
+            try {
+                const response = await fetch('../_header.html');
+                if (!response.ok) throw new Error('Header yüklenemedi: ' + response.status);
+                headerElement.innerHTML = await response.text();
+            } catch (error) {
+                console.error('Header yüklenemedi:', error);
+            }
         }
-    }
-};
+    };
 
     // FOOTER yükle
 const loadFooter = async () => {
-    const footerElement = document.getElementById('main-footer');
-    if (footerElement) {
-        try {
-            const response = await fetch('_footer.html');
-            if (!response.ok) throw new Error('Footer yüklenemedi: ' + response.status);
-            const html = await response.text();
-            footerElement.innerHTML = html;
-        } catch (error) {
-            console.error('Footer yüklenemedi:', error);
+        const footerElement = document.getElementById('main-footer');
+        if (footerElement) {
+            try {
+                const response = await fetch('../_footer.html');
+                if (!response.ok) throw new Error('Footer yüklenemedi: ' + response.status);
+                footerElement.innerHTML = await response.text();
+            } catch (error) {
+                console.error('Footer yüklenemedi:', error);
+            }
         }
-    }
-};
+    };
 
     // Header ve Footer’ı aynı anda yükle
     await Promise.all([loadHeader(), loadFooter()]);
