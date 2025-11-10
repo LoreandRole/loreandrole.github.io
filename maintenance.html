@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenance - Lore and Role Entertainment</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --background-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #007BFF;
+            --font-header: 'Teko', sans-serif;
+            --font-body: 'Roboto', sans-serif;
+        }
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: var(--font-body);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+        }
+        .logo img {
+            height: 60px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: var(--font-header);
+            font-size: 3rem;
+            color: #fff;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        a.button {
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+        a.button:hover {
+            background-color: #0056b3;
+        }
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .language-switcher button {
+            background: transparent;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 5px 10px;
+            margin-left: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .language-switcher button:hover,
+        .language-switcher button.active {
+            background: var(--accent-color);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="language-switcher">
+        <button id="lang-tr-maintenance">TR</button>
+        <button id="lang-en-maintenance">EN</button>
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="Lore and Role Logo">
+        </a>
+        <!-- Çeviri için anahtar eklendi -->
+        <h1 data-translate-key="maintenance_title">This Page is Under Maintenance</h1>
+        <p data-translate-key="maintenance_text">We're currently making some awesome updates to the World of Warmasters page. It will be back and better than ever very soon. Thank you for your patience!</p>
+        <a href="index.html" class="button" data-translate-key="maintenance_button">Go Back to Homepage</a>
+    </div>
+
+    <!-- YENİ EKLENEN BAĞIMSIZ JAVASCRIPT KODU -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const translations = {
+                'en': {
+                    'maintenance_title': 'This Page is Under Maintenance',
+                    'maintenance_text': "We're currently making some awesome updates to the World of Warmasters page. It will be back and better than ever very soon. Thank you for your patience!",
+                    'maintenance_button': 'Go Back to Homepage'
+                },
+                'tr': {
+                    'maintenance_title': 'Bu Sayfa Bakımdadır',
+                    'maintenance_text': "Şu anda World of Warmasters sayfası için harika güncellemeler yapıyoruz. Çok yakında eskisinden daha iyi bir şekilde geri dönecek. Sabrınız için teşekkür ederiz!",
+                    'maintenance_button': 'Ana Sayfaya Geri Dön'
+                }
+            };
+
+            const langTrButton = document.getElementById('lang-tr-maintenance');
+            const langEnButton = document.getElementById('lang-en-maintenance');
+
+            const setLanguage = (lang) => {
+                document.querySelectorAll('[data-translate-key]').forEach(element => {
+                    const key = element.getAttribute('data-translate-key');
+                    if (translations[lang] && translations[lang][key]) {
+                        element.innerHTML = translations[lang][key];
+                    }
+                });
+
+                localStorage.setItem('language', lang);
+
+                if (lang === 'tr') {
+                    langTrButton.classList.add('active');
+                    langEnButton.classList.remove('active');
+                } else {
+                    langEnButton.classList.add('active');
+                    langTrButton.classList.remove('active');
+                }
+            };
+
+            langTrButton.addEventListener('click', () => setLanguage('tr'));
+            langEnButton.addEventListener('click', () => setLanguage('en'));
+            
+            // Diğer sayfalardaki dil seçimini hatırla!
+            const currentLang = localStorage.getItem('language') || 'en';
+            setLanguage(currentLang);
+        });
+    </script>
+</body>
+</html>
