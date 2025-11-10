@@ -5,7 +5,7 @@ const loadHeader = async () => {
         const headerElement = document.getElementById('main-header');
         if (headerElement) {
             try {
-                const response = await fetch('../_header.html');
+                const response = await fetch('../header.html');
                 if (!response.ok) throw new Error('Header yüklenemedi: ' + response.status);
                 headerElement.innerHTML = await response.text();
             } catch (error) {
@@ -19,7 +19,7 @@ const loadFooter = async () => {
         const footerElement = document.getElementById('main-footer');
         if (footerElement) {
             try {
-                const response = await fetch('../_footer.html');
+                const response = await fetch('../footer.html');
                 if (!response.ok) throw new Error('Footer yüklenemedi: ' + response.status);
                 footerElement.innerHTML = await response.text();
             } catch (error) {
