@@ -64,6 +64,11 @@ const loadFooter = async () => {
             'features_title': "Key Features",
             'available_on': "Available On",
 
+            'tile_title': "Tile Echoes",
+            'tile_subtitle': "Puzzle Game!",
+            'tile_description': "Tile Echoes is the brilliantly simple, endlessly hilarious game you didn't know you needed.",
+            'tile_features_list': `<li><strong>One-Tap Gameplay:</strong> Deceptively simple, impossibly fun.</li>`,
+
             'bawk_title': "Bawk 'n' Laugh",
             'bawk_subtitle': "The Ultimate Chicken Scream Simulator!",
             'bawk_description': "Bawk 'n' Laugh is the brilliantly simple, endlessly hilarious game you didn't know you needed.",
@@ -110,6 +115,11 @@ const loadFooter = async () => {
             'features_title': "Temel Özellikler",
             'available_on': "Platformlar",
 
+            'tile_title': "Tile Echoes",
+            'tile_subtitle': "Bulmaca Oyunu!",
+            'tile_description': "Tile Echoes, inanılmaz basit, eğlenceli ve rahatlatıcı bir oyundur.",
+            'tile_features_list': `<li><strong>Tek Dokunuşla Oynanış:</strong> Basit, eğlenceli, bağımlılık yapıcı!</li>`,
+
             'bawk_title': "Bawk 'n' Laugh",
             'bawk_subtitle': "Nihai Tavuk Çığlığı Simülatörü!",
             'bawk_description': "Bawk 'n' Laugh, inanılmaz basit ama kahkaha dolu bir oyundur.",
@@ -117,7 +127,7 @@ const loadFooter = async () => {
 
             'knotty_title': "Knotty Critters",
             'knotty_subtitle': "Bulmaca Oyunu!",
-            'knotty_description': "Knotty Critters, eğlenceli ve rahatlatıcı bir bulmaca deneyimidir.",
+            'knotty_description': "Knotty Critters, eğlenceli ve rahatlatıcı bir bulmaca oyunudur.",
             'knotty_features_list': `<li><strong>Basit ama Zorlayıcı:</strong> Her düğüm yeni bir bulmaca!</li>`,
 
             'wow_title': "Warmasters",
