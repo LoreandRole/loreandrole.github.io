@@ -74,9 +74,9 @@ const loadFooter = async () => {
             'bawk_description': "Bawk 'n' Laugh is the brilliantly simple, endlessly hilarious game you didn't know you needed.",
             'bawk_features_list': `<li><strong>One-Tap Gameplay:</strong> Deceptively simple, impossibly fun.</li>`,
 
-            'knotty_title': "Knotty Critters",
+            'knotty_title': "Tangle Trails",
             'knotty_subtitle': "Puzzle Game!",
-            'knotty_description': "Knotty Critters is a fun, simple and challenging puzzle adventure.",
+            'knotty_description': "Tangle Trails is a fun, simple and challenging puzzle adventure.",
             'knotty_features_list': `<li><strong>Simple Yet Addictive:</strong> Easy to play, hard to master!</li>`,
 
             'wow_title': "Warmasters",
@@ -125,9 +125,9 @@ const loadFooter = async () => {
             'bawk_description': "Bawk 'n' Laugh, inanılmaz basit ama kahkaha dolu bir oyundur.",
             'bawk_features_list': `<li><strong>Tek Dokunuşla Oynanış:</strong> Basit, eğlenceli, bağımlılık yapıcı!</li>`,
 
-            'knotty_title': "Knotty Critters",
+            'knotty_title': "Tangle Trails",
             'knotty_subtitle': "Bulmaca Oyunu!",
-            'knotty_description': "Knotty Critters, eğlenceli ve rahatlatıcı bir bulmaca oyunudur.",
+            'knotty_description': "Tangle Trails, eğlenceli ve rahatlatıcı bir bulmaca oyunudur.",
             'knotty_features_list': `<li><strong>Basit ama Zorlayıcı:</strong> Her düğüm yeni bir bulmaca!</li>`,
 
             'wow_title': "Warmasters",
