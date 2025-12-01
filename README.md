@@ -1,1 +1,1 @@
-https://loreandrole.github.io/index.html
+https://www.loreandrole.com
