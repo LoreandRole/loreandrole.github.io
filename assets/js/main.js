@@ -64,6 +64,16 @@ const loadFooter = async () => {
             'features_title': "Key Features",
             'available_on': "Available On",
 
+            'wacky_title': "Wacky Pieces: Swap Puzzle",
+            'wacky_subtitle': "Puzzle Game!",
+            'wacky_description': "Wacky Pieces: Swap Puzzle is the brilliantly simple, endlessly hilarious game you didn't know you needed.",
+            'wacky_features_list': `<li><strong>One-Tap Gameplay:</strong> Deceptively simple, impossibly fun.</li>`,
+
+            'stack_title': "Stack Rivals: Hotseat Physics",
+            'stack_subtitle': "Puzzle Game!",
+            'stack_description': "Stack Rivals: Hotseat Physics is the brilliantly simple, endlessly hilarious game you didn't know you needed.",
+            'stack_features_list': `<li><strong>One-Tap Gameplay:</strong> Deceptively simple, impossibly fun.</li>`,
+
             'tile_title': "Tile Echoes",
             'tile_subtitle': "Puzzle Game!",
             'tile_description': "Tile Echoes is the brilliantly simple, endlessly hilarious game you didn't know you needed.",
@@ -114,6 +124,16 @@ const loadFooter = async () => {
             // Oyun sayfaları
             'features_title': "Temel Özellikler",
             'available_on': "Platformlar",
+
+            'wacky_title': "Wacky Pieces: Swap Puzzle",
+            'wacky_subtitle': "Bulmaca Oyunu!",
+            'wacky_description': "Wacky Pieces: Swap Puzzle, inanılmaz basit, eğlenceli ve rahatlatıcı bir oyundur.",
+            'wacky_features_list': `<li><strong>Tek Dokunuşla Oynanış:</strong> Basit, eğlenceli, bağımlılık yapıcı!</li>`,
+
+            'stack_title': "Stack Rivals: Hotseat Physics",
+            'stack_subtitle': "Bulmaca Oyunu!",
+            'stack_description': "Stack Rivals: Hotseat Physics, inanılmaz basit, eğlenceli ve rahatlatıcı bir oyundur.",
+            'stack_features_list': `<li><strong>Tek Dokunuşla Oynanış:</strong> Basit, eğlenceli, bağımlılık yapıcı!</li>`,
 
             'tile_title': "Tile Echoes",
             'tile_subtitle': "Bulmaca Oyunu!",
