@@ -89,6 +89,11 @@ const loadFooter = async () => {
             'knotty_description': "Tangle Trails is a fun, simple and challenging puzzle adventure.",
             'knotty_features_list': `<li><strong>Simple Yet Addictive:</strong> Easy to play, hard to master!</li>`,
 
+            'warpledge_title': "Warpledge",
+            'warpledge_subtitle': "Your Legend Awaits.",
+            'warpledge_description': "Step into a realm where forgotten myths awaken and shadows hunger for power.",
+            'warpledge_features_list': `<li><strong>Explore:</strong> Discover vast lands full of secrets and legends.</li>`,
+            
             'wow_title': "Warmasters",
             'wow_subtitle': "Your Legend Awaits.",
             'wow_description': "Step into a realm where forgotten myths awaken and shadows hunger for power.",
@@ -150,6 +155,11 @@ const loadFooter = async () => {
             'knotty_description': "Tangle Trails, eğlenceli ve rahatlatıcı bir bulmaca oyunudur.",
             'knotty_features_list': `<li><strong>Basit ama Zorlayıcı:</strong> Her düğüm yeni bir bulmaca!</li>`,
 
+            'warpledge_title': "Warpledge",
+            'warpledge_subtitle': "Efsanen Seni Bekliyor.",
+            'warpledge_description': "Unutulmuş efsanelerin uyandığı bir diyara adım atın.",
+            'warpledge_features_list': `<li><strong>Keşfet:</strong> Sırlar ve efsanelerle dolu geniş topraklar.</li>`,
+            
             'wow_title': "Warmasters",
             'wow_subtitle': "Efsanen Seni Bekliyor.",
             'wow_description': "Unutulmuş efsanelerin uyandığı bir diyara adım atın.",
