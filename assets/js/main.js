@@ -91,9 +91,9 @@ const loadFooter = async () => {
 
             'warpledge_title': "Warpledge",
             'warpledge_subtitle': "Forge Your Path in a Dark Fantasy World",
-            'warpledge_description': "Warpledge is a 2D isometric fantasy RPG focused on combat, loot, and character progression. Battle monsters, face other players, and grow stronger with every run.",
+            'warpledge_description': "Warpledge is a 2D isometric fantasy RPG focused on combat, loot, and character progression. Battle monsters, face other characters, and grow stronger with every run.",
             'warpledge_features_list': `
-                <li><strong>Isometric RPG Combat:</strong> Engage in fast-paced battles against monsters and rival players.</li>
+                <li><strong>Isometric RPG Combat:</strong> Engage in fast-paced battles against monsters and rival characters.</li>
                 <li><strong>Loot & Equipment:</strong> Collect weapons and gear to improve your character.</li>
                 <li><strong>Progression System:</strong> Level up and strengthen your build through continuous gameplay.</li>
                 <li><strong>PvE & PvP Maps:</strong> Fight fantasy creatures or challenge other characters in PvP zones.</li>
@@ -162,9 +162,9 @@ const loadFooter = async () => {
 
             'warpledge_title': "Warpledge",
             'warpledge_subtitle': "Karanlık Bir Fantastik Dünyada Kendi Yolunu Çiz",
-            'warpledge_description': "Warpledge; savaş, ganimet ve karakter gelişimine odaklanan 2D izometrik bir fantastik RPG oyunudur. Yaratıklarla savaş, diğer oyuncularla karşılaş ve her oynayışta daha da güçlen.",
+            'warpledge_description': "Warpledge; savaş, ganimet ve karakter gelişimine odaklanan 2D izometrik bir fantastik RPG oyunudur. Yaratıklarla savaş, diğer karakterlerle karşılaş ve her oynayışta daha da güçlen.",
             'warpledge_features_list': `
-                <li><strong>İzometrik RPG Savaş Sistemi:</strong> Yaratıklara ve rakip oyunculara karşı tempolu çatışmalar.</li>
+                <li><strong>İzometrik RPG Savaş Sistemi:</strong> Yaratıklara ve rakip karakterlere karşı tempolu çatışmalar.</li>
                 <li><strong>Ganimet ve Ekipman:</strong> Karakterini güçlendirmek için silahlar ve eşyalar topla.</li>
                 <li><strong>Gelişim Sistemi:</strong> Seviye atla ve oynadıkça karakter yapını güçlendir.</li>
                 <li><strong>PvE & PvP Haritalar:</strong> Fantastik yaratıklarla savaş veya PvP alanlarında diğer karakterlerle yüzleş.</li>
