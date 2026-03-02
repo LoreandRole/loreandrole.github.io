@@ -96,7 +96,7 @@ const loadFooter = async () => {
                 <li><strong>Isometric RPG Combat:</strong> Engage in fast-paced battles against monsters and rival players.</li>
                 <li><strong>Loot & Equipment:</strong> Collect weapons and gear to improve your character.</li>
                 <li><strong>Progression System:</strong> Level up and strengthen your build through continuous gameplay.</li>
-                <li><strong>PvE & PvP Maps:</strong> Fight fantasy creatures or challenge other players in PvP zones.</li>
+                <li><strong>PvE & PvP Maps:</strong> Fight fantasy creatures or challenge other characters in PvP zones.</li>
             `,
             
             'wow_title': "Warmasters",
@@ -167,7 +167,7 @@ const loadFooter = async () => {
                 <li><strong>İzometrik RPG Savaş Sistemi:</strong> Yaratıklara ve rakip oyunculara karşı tempolu çatışmalar.</li>
                 <li><strong>Ganimet ve Ekipman:</strong> Karakterini güçlendirmek için silahlar ve eşyalar topla.</li>
                 <li><strong>Gelişim Sistemi:</strong> Seviye atla ve oynadıkça karakter yapını güçlendir.</li>
-                <li><strong>PvE & PvP Haritalar:</strong> Fantastik yaratıklarla savaş veya PvP alanlarında diğer oyuncularla yüzleş.</li>
+                <li><strong>PvE & PvP Haritalar:</strong> Fantastik yaratıklarla savaş veya PvP alanlarında diğer karakterlerle yüzleş.</li>
             `,
             
             'wow_title': "Warmasters",
